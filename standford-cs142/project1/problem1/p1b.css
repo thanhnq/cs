@@ -1,0 +1,36 @@
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+table {
+    border-width: 10px;
+    border-color: #d0d0ff;
+    border-style: solid;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+tr.display {
+    font-weight: bold;
+}
+
+tr.header {
+    font-weight: bold;
+}
+
+td.center {
+    text-align: center;
+}
+
+div {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 10px;
+}
+
+td.total {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}

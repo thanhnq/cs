@@ -1,0 +1,39 @@
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+tr.display {
+    display: none;
+}
+
+tr.header {
+    color: white;
+    font-weight: bold;
+    background: #687291;
+}
+
+tr:nth-of-type(odd).body {
+    background: #eeeff2;
+}
+
+tr:nth-of-type(even).body {
+    background: #dfe1e7;
+}
+
+td {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+
+td.center {
+    text-align: center;
+}
+
+div {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

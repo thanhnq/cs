@@ -1,0 +1,77 @@
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+td {
+    white-space: nowrap;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+td.left {
+    background-image: url('left.gif');
+}
+
+td.mid {
+    background-image: url('mid.gif');
+}
+
+td.right {
+    background-image: url('right.gif');
+}
+
+td.left-selected {
+    background-image: url('left-selected.gif');
+}
+
+td.mid-selected {
+    background-image: url('mid-selected.gif');
+}
+
+td.right-selected {
+    background-image: url('right-selected.gif');
+}
+
+td.empty {
+    padding: 2px;  
+}
+
+td.last {
+    width: 100%;
+}
+
+div.mid {
+    margin: 3px;
+}
+div.right {
+    margin-right: 1px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #cc6600;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.active {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
