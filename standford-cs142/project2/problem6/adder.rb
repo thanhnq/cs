@@ -7,6 +7,6 @@ class Adder
   end
   
   def method_missing()
-    
+    if 
   end
 end

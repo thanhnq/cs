@@ -10,10 +10,10 @@ module Enumerable
         if x[0] == k then
           v << x
           new = false
-          break  
+          break
         end
       end
-      if new == true then 
+      if new == true then
         h[x[0]] = [x]
       end
     end
