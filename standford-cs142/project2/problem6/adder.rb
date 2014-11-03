@@ -21,3 +21,18 @@ class Adder
     end
   end
 end
+
+print "x = Adder.new(10)\n"
+x = Adder.new(10)
+print "y = Adder.new(1)\n"
+y = Adder.new(1)
+
+print "x.plus1\n"
+puts x.plus1
+print "y.plus1\n"
+puts y.plus1
+print "x.plus100\n"
+puts x.plus100
+print "y.add1\n"
+puts y.add1
+
